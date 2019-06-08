@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pesquisasatisfacaos",
+      "handler": "Pesquisasatisfacao.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pesquisasatisfacaos/count",
+      "handler": "Pesquisasatisfacao.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pesquisasatisfacaos/:_id",
+      "handler": "Pesquisasatisfacao.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pesquisasatisfacaos",
+      "handler": "Pesquisasatisfacao.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pesquisasatisfacaos/:_id",
+      "handler": "Pesquisasatisfacao.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pesquisasatisfacaos/:_id",
+      "handler": "Pesquisasatisfacao.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "funcionarios",
+  "info": {
+    "name": "funcionarios",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "model": "user",
+      "via": "funcionarios",
+      "plugin": "users-permissions"
+    },
+    "condominios": {
+      "collection": "condominios",
+      "via": "funcionarios",
+      "dominant": true
+    },
+    "file": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "ativo": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

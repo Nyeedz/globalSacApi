@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "areascomuns",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "areas_tipologias": {
+      "type": "json"
+    },
+    "condominio": {
+      "model": "condominios",
+      "via": "areascomuns"
+    },
+    "construtora": {
+      "model": "construtoras",
+      "via": "areascomuns"
+    },
+    "tipologia": {
+      "model": "tipologia",
+      "via": "areascomun"
+    },
+    "chamados": {
+      "collection": "chamados",
+      "via": "areascomun"
+    }
+  }
+}

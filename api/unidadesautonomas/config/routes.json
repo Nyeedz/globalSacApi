@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/unidadesautonomas",
+      "handler": "Unidadesautonomas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/unidadesautonomas/count",
+      "handler": "Unidadesautonomas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/unidadesautonomas/:_id",
+      "handler": "Unidadesautonomas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/unidadesautonomas",
+      "handler": "Unidadesautonomas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/unidadesautonomas/:_id",
+      "handler": "Unidadesautonomas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/unidadesautonomas/:_id",
+      "handler": "Unidadesautonomas.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

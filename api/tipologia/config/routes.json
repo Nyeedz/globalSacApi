@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tipologias",
+      "handler": "Tipologia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipologias/count",
+      "handler": "Tipologia.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipologias/:_id",
+      "handler": "Tipologia.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tipologias",
+      "handler": "Tipologia.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tipologias/:_id",
+      "handler": "Tipologia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tipologias/:_id",
+      "handler": "Tipologia.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

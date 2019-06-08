@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "unidadesautonomas",
+  "info": {
+    "name": "unidadesautonomas",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "unidades": {
+      "collection": "unidades",
+      "via": "unidadesautonoma"
+    },
+    "construtora": {
+      "model": "construtoras",
+      "via": "unidadesautonomas"
+    },
+    "condominio": {
+      "model": "condominios",
+      "via": "unidadesautonomas"
+    },
+    "tipologia": {
+      "model": "tipologia",
+      "via": "unidadesautonomas"
+    },
+    "user": {
+      "model": "user",
+      "via": "unidadesautonomas",
+      "plugin": "users-permissions"
+    }
+  }
+}

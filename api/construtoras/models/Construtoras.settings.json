@@ -1,0 +1,98 @@
+{
+  "connection": "default",
+  "collectionName": "construtoras",
+  "info": {
+    "name": "construtoras",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "required": true,
+      "type": "string"
+    },
+    "logo": {
+      "type": "text"
+    },
+    "razao_social": {
+      "type": "string",
+      "required": true
+    },
+    "cnpj": {
+      "required": true,
+      "type": "string"
+    },
+    "cep": {
+      "type": "string",
+      "required": true
+    },
+    "estado": {
+      "type": "string",
+      "required": true
+    },
+    "endereco": {
+      "type": "string",
+      "required": true
+    },
+    "bairro": {
+      "type": "string"
+    },
+    "complemento": {
+      "type": "string"
+    },
+    "cidade": {
+      "type": "string",
+      "required": true
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "integer",
+      "required": true
+    },
+    "email": {
+      "required": true,
+      "type": "email"
+    },
+    "condominios": {
+      "collection": "condominios",
+      "via": "construtoras"
+    },
+    "areascomuns": {
+      "collection": "areascomuns",
+      "via": "construtora"
+    },
+    "areasgerais": {
+      "collection": "areasgerais",
+      "via": "construtora"
+    },
+    "ativo": {
+      "default": true,
+      "type": "boolean"
+    },
+    "tipologias": {
+      "collection": "tipologia",
+      "via": "construtora"
+    },
+    "pesquisasatisfacaos": {
+      "collection": "pesquisasatisfacao",
+      "via": "construtora"
+    },
+    "garantias": {
+      "collection": "garantia",
+      "via": "construtora"
+    },
+    "unidadesautonomas": {
+      "collection": "unidadesautonomas",
+      "via": "construtora"
+    },
+    "users": {
+      "collection": "user",
+      "via": "construtoras",
+      "plugin": "users-permissions"
+    }
+  }
+}

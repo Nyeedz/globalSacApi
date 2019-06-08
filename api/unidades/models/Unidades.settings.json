@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "unidades",
+  "info": {
+    "name": "unidades",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "unidadesautonoma": {
+      "model": "unidadesautonomas",
+      "via": "unidades"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "users": {
+      "collection": "user",
+      "via": "unidades",
+      "plugin": "users-permissions"
+    },
+    "chamados": {
+      "collection": "chamados",
+      "via": "unidade"
+    },
+    "tipologia": {
+      "model": "tipologia",
+      "via": "unidades"
+    }
+  }
+}

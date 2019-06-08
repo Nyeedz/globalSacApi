@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/garantias",
+      "handler": "Garantia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/garantias/count",
+      "handler": "Garantia.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/garantias/:_id",
+      "handler": "Garantia.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/garantias",
+      "handler": "Garantia.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/garantias/:_id",
+      "handler": "Garantia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/garantias/:_id",
+      "handler": "Garantia.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

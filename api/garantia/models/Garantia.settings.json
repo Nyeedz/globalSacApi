@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "garantia",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "required": true,
+      "type": "string"
+    },
+    "subitem": {
+      "type": "json"
+    },
+    "condominio": {
+      "model": "condominios",
+      "via": "garantias"
+    },
+    "construtora": {
+      "model": "construtoras",
+      "via": "garantias"
+    },
+    "tipologia": {
+      "model": "tipologia",
+      "via": "garantias"
+    },
+    "chamados": {
+      "collection": "chamados",
+      "via": "garantia"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/chamados",
+      "handler": "Chamados.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/chamados/count",
+      "handler": "Chamados.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/chamados/:_id",
+      "handler": "Chamados.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/chamados",
+      "handler": "Chamados.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/chamados/:_id",
+      "handler": "Chamados.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/chamados/:_id",
+      "handler": "Chamados.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
