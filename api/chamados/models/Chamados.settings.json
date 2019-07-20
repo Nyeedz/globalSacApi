@@ -30,10 +30,6 @@
       "model": "areasgerais",
       "via": "chamados"
     },
-    "garantia": {
-      "model": "garantia",
-      "via": "chamados"
-    },
     "tipologia": {
       "model": "tipologia",
       "via": "chamados"
@@ -63,6 +59,10 @@
     },
     "data_abertura": {
       "type": "date"
+    },
+    "garantia": {
+      "model": "garantia",
+      "via": "chamados"
     }
   }
 }

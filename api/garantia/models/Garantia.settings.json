@@ -1,20 +1,20 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "garantia",
   "info": {
     "name": "garantia",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "nome": {
       "required": true,
       "type": "string"
-    },
-    "subitem": {
-      "type": "json"
     },
     "condominio": {
       "model": "condominios",
@@ -30,6 +30,10 @@
     },
     "chamados": {
       "collection": "chamados",
+      "via": "garantia"
+    },
+    "subitems": {
+      "collection": "subitem",
       "via": "garantia"
     }
   }

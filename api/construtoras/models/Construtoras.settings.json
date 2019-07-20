@@ -81,10 +81,6 @@
       "collection": "pesquisasatisfacao",
       "via": "construtora"
     },
-    "garantias": {
-      "collection": "garantia",
-      "via": "construtora"
-    },
     "unidadesautonomas": {
       "collection": "unidadesautonomas",
       "via": "construtora"
@@ -93,6 +89,10 @@
       "collection": "user",
       "via": "construtoras",
       "plugin": "users-permissions"
+    },
+    "garantias": {
+      "collection": "garantia",
+      "via": "construtora"
     }
   }
 }

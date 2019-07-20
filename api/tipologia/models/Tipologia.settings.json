@@ -28,10 +28,6 @@
       "model": "areascomuns",
       "via": "tipologia"
     },
-    "garantias": {
-      "collection": "garantia",
-      "via": "tipologia"
-    },
     "unidadesautonomas": {
       "collection": "unidadesautonomas",
       "via": "tipologia"
@@ -48,6 +44,10 @@
     },
     "unidades": {
       "collection": "unidades",
+      "via": "tipologia"
+    },
+    "garantias": {
+      "collection": "garantia",
       "via": "tipologia"
     }
   }

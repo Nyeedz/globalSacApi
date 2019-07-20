@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "subitem",
+  "info": {
+    "name": "subitem",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "tempo_garantia": {
+      "type": "string"
+    },
+    "unidade_garantia": {
+      "type": "string"
+    },
+    "garantia": {
+      "model": "garantia",
+      "via": "subitems"
+    },
+    "data_inicio": {
+      "type": "string"
+    }
+  }
+}
