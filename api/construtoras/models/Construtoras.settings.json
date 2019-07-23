@@ -61,14 +61,6 @@
       "collection": "condominios",
       "via": "construtoras"
     },
-    "areascomuns": {
-      "collection": "areascomuns",
-      "via": "construtora"
-    },
-    "areasgerais": {
-      "collection": "areasgerais",
-      "via": "construtora"
-    },
     "ativo": {
       "default": true,
       "type": "boolean"
@@ -92,6 +84,14 @@
     },
     "garantias": {
       "collection": "garantia",
+      "via": "construtora"
+    },
+    "areascomuns": {
+      "collection": "areascomuns",
+      "via": "construtora"
+    },
+    "areasgerais": {
+      "collection": "areasgerais",
       "via": "construtora"
     }
   }

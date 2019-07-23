@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "areacomumgeral",
+  "info": {
+    "name": "areacomumgeral",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "areasgerais": {
+      "model": "areasgerais",
+      "via": "areacomumgerals"
+    }
+  }
+}

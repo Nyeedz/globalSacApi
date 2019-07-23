@@ -21,13 +21,13 @@
       "via": "unidades",
       "plugin": "users-permissions"
     },
-    "chamados": {
-      "collection": "chamados",
-      "via": "unidade"
-    },
     "tipologia": {
       "model": "tipologia",
       "via": "unidades"
+    },
+    "chamados": {
+      "collection": "chamados",
+      "via": "unidade"
     }
   }
 }

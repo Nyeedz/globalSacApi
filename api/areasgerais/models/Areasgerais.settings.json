@@ -1,23 +1,27 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "areasgerais",
   "info": {
     "name": "areasgerais",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
-    "areas_gerais": {
-      "type": "json"
-    },
     "condominio": {
       "model": "condominios",
       "via": "areasgerais"
     },
     "construtora": {
       "model": "construtoras",
+      "via": "areasgerais"
+    },
+    "areacomumgerals": {
+      "collection": "areacomumgeral",
       "via": "areasgerais"
     },
     "chamados": {

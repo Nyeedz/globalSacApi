@@ -28,12 +28,12 @@
       "model": "tipologia",
       "via": "garantias"
     },
-    "chamados": {
-      "collection": "chamados",
-      "via": "garantia"
-    },
     "subitems": {
       "collection": "subitem",
+      "via": "garantia"
+    },
+    "chamados": {
+      "collection": "chamados",
       "via": "garantia"
     }
   }

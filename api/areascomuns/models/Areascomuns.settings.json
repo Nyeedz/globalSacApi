@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "areascomuns",
   "info": {
     "name": "areascomuns",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "areas_tipologias": {
@@ -22,7 +25,7 @@
     },
     "tipologia": {
       "model": "tipologia",
-      "via": "areascomun"
+      "via": "areascomuns"
     },
     "chamados": {
       "collection": "chamados",
