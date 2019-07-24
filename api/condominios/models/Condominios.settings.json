@@ -88,16 +88,16 @@
       "collection": "garantia",
       "via": "condominio"
     },
-    "areascomuns": {
-      "collection": "areascomuns",
-      "via": "condominio"
-    },
     "areasgerais": {
       "collection": "areasgerais",
       "via": "condominio"
     },
     "chamados": {
       "collection": "chamados",
+      "via": "condominio"
+    },
+    "areascomuns": {
+      "collection": "areascomuns",
       "via": "condominio"
     }
   }

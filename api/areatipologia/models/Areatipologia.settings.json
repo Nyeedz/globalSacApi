@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "areatipologia",
+  "info": {
+    "name": "areatipologia",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "areascomun": {
+      "model": "areascomuns",
+      "via": "areatipologias"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/areatipologias",
+      "handler": "Areatipologia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/areatipologias/count",
+      "handler": "Areatipologia.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/areatipologias/:_id",
+      "handler": "Areatipologia.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/areatipologias",
+      "handler": "Areatipologia.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/areatipologias/:_id",
+      "handler": "Areatipologia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/areatipologias/:_id",
+      "handler": "Areatipologia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

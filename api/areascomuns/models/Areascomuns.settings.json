@@ -12,9 +12,6 @@
     ]
   },
   "attributes": {
-    "areas_tipologias": {
-      "type": "json"
-    },
     "condominio": {
       "model": "condominios",
       "via": "areascomuns"
@@ -29,6 +26,10 @@
     },
     "chamados": {
       "collection": "chamados",
+      "via": "areascomun"
+    },
+    "areatipologias": {
+      "collection": "areatipologia",
       "via": "areascomun"
     }
   }

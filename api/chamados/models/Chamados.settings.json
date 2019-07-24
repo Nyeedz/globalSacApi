@@ -59,16 +59,16 @@
       "model": "garantia",
       "via": "chamados"
     },
-    "areascomun": {
-      "model": "areascomuns",
-      "via": "chamados"
-    },
     "areasgerais": {
       "model": "areasgerais",
       "via": "chamados"
     },
     "subitem": {
       "model": "subitem",
+      "via": "chamados"
+    },
+    "areascomun": {
+      "model": "areascomuns",
       "via": "chamados"
     }
   }
