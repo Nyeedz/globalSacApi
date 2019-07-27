@@ -24,10 +24,6 @@
       "model": "tipologia",
       "via": "areascomuns"
     },
-    "chamados": {
-      "collection": "chamados",
-      "via": "areascomun"
-    },
     "areatipologias": {
       "collection": "areatipologia",
       "via": "areascomun"

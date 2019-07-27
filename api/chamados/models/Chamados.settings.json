@@ -40,11 +40,6 @@
     "status": {
       "type": "integer"
     },
-    "files": {
-      "collection": "file",
-      "via": "related",
-      "plugin": "upload"
-    },
     "unidade": {
       "model": "unidades",
       "via": "chamados"
@@ -59,17 +54,22 @@
       "model": "garantia",
       "via": "chamados"
     },
-    "areasgerais": {
-      "model": "areasgerais",
+    "areacomumgeral": {
+      "model": "areacomumgeral",
       "via": "chamados"
     },
     "subitem": {
       "model": "subitem",
       "via": "chamados"
     },
-    "areascomun": {
-      "model": "areascomuns",
+    "areatipologia": {
+      "model": "areatipologia",
       "via": "chamados"
+    },
+    "fotos": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
     }
   }
 }

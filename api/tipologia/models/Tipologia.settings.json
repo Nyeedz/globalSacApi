@@ -42,12 +42,12 @@
       "collection": "garantia",
       "via": "tipologia"
     },
-    "chamados": {
-      "collection": "chamados",
-      "via": "tipologia"
-    },
     "areascomuns": {
       "collection": "areascomuns",
+      "via": "tipologia"
+    },
+    "chamados": {
+      "collection": "chamados",
       "via": "tipologia"
     }
   }

@@ -18,6 +18,10 @@
     "areasgerais": {
       "model": "areasgerais",
       "via": "areacomumgerals"
+    },
+    "chamados": {
+      "collection": "chamados",
+      "via": "areacomumgeral"
     }
   }
 }
