@@ -13,10 +13,6 @@
       "collection": "unidades",
       "via": "unidadesautonoma"
     },
-    "construtora": {
-      "model": "construtoras",
-      "via": "unidadesautonomas"
-    },
     "condominio": {
       "model": "condominios",
       "via": "unidadesautonomas"
@@ -29,6 +25,10 @@
       "model": "user",
       "via": "unidadesautonomas",
       "plugin": "users-permissions"
+    },
+    "construtora": {
+      "model": "construtoras",
+      "via": "unidadesautonomas"
     }
   }
 }

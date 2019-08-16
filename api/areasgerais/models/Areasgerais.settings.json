@@ -16,12 +16,12 @@
       "model": "condominios",
       "via": "areasgerais"
     },
-    "construtora": {
-      "model": "construtoras",
-      "via": "areasgerais"
-    },
     "areacomumgerals": {
       "collection": "areacomumgeral",
+      "via": "areasgerais"
+    },
+    "construtora": {
+      "model": "construtoras",
       "via": "areasgerais"
     }
   }

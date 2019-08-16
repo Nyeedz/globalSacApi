@@ -20,10 +20,6 @@
       "model": "condominios",
       "via": "torres"
     },
-    "construtora": {
-      "model": "construtoras",
-      "via": "tipologias"
-    },
     "unidadesautonomas": {
       "collection": "unidadesautonomas",
       "via": "tipologia"
@@ -45,6 +41,10 @@
     "areascomuns": {
       "collection": "areascomuns",
       "via": "tipologia"
+    },
+    "construtora": {
+      "model": "construtoras",
+      "via": "tipologias"
     },
     "chamados": {
       "collection": "chamados",

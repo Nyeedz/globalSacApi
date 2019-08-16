@@ -20,10 +20,6 @@
       "model": "condominios",
       "via": "garantias"
     },
-    "construtora": {
-      "model": "construtoras",
-      "via": "garantias"
-    },
     "tipologia": {
       "model": "tipologia",
       "via": "garantias"
@@ -31,6 +27,10 @@
     "subitems": {
       "collection": "subitem",
       "via": "garantia"
+    },
+    "construtora": {
+      "model": "construtoras",
+      "via": "garantias"
     },
     "chamados": {
       "collection": "chamados",

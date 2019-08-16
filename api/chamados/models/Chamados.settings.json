@@ -58,10 +58,6 @@
       "model": "areacomumgeral",
       "via": "chamados"
     },
-    "subitem": {
-      "model": "subitem",
-      "via": "chamados"
-    },
     "areatipologia": {
       "model": "areatipologia",
       "via": "chamados"
@@ -70,6 +66,26 @@
       "collection": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "subitem": {
+      "model": "subitem",
+      "via": "chamados"
+    },
+    "data_encerramento": {
+      "type": "date"
+    },
+    "fotosTecnicas": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "fotosExecucao": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "comentarioExecucao": {
+      "type": "text"
     }
   }
 }

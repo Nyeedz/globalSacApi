@@ -9,12 +9,12 @@
     "timestamps": true
   },
   "attributes": {
+    "perguntas": {
+      "type": "json"
+    },
     "construtora": {
       "model": "construtoras",
       "via": "pesquisasatisfacaos"
-    },
-    "perguntas": {
-      "type": "json"
     }
   }
 }

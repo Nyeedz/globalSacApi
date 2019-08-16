@@ -54,11 +54,6 @@
       "via": "users",
       "dominant": true
     },
-    "construtoras": {
-      "collection": "construtoras",
-      "via": "users",
-      "dominant": true
-    },
     "nome": {
       "type": "string"
     },
@@ -119,6 +114,11 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "construtoras": {
+      "collection": "construtoras",
+      "dominant": true,
+      "via": "users"
     },
     "chamados": {
       "collection": "chamados",

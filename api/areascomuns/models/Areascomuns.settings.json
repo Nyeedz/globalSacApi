@@ -16,10 +16,6 @@
       "model": "condominios",
       "via": "areascomuns"
     },
-    "construtora": {
-      "model": "construtoras",
-      "via": "areascomuns"
-    },
     "tipologia": {
       "model": "tipologia",
       "via": "areascomuns"
@@ -27,6 +23,10 @@
     "areatipologias": {
       "collection": "areatipologia",
       "via": "areascomun"
+    },
+    "construtora": {
+      "model": "construtoras",
+      "via": "areascomuns"
     }
   }
 }

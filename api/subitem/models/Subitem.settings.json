@@ -28,6 +28,9 @@
     "data_inicio": {
       "type": "string"
     },
+    "data_criacao": {
+      "type": "string"
+    },
     "chamados": {
       "collection": "chamados",
       "via": "subitem"

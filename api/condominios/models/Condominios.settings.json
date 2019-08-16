@@ -59,10 +59,6 @@
       "via": "related",
       "plugin": "upload"
     },
-    "construtoras": {
-      "model": "construtoras",
-      "via": "condominios"
-    },
     "ativo": {
       "default": true,
       "type": "boolean"
@@ -95,6 +91,10 @@
     "areascomuns": {
       "collection": "areascomuns",
       "via": "condominio"
+    },
+    "construtoras": {
+      "model": "construtoras",
+      "via": "condominios"
     },
     "chamados": {
       "collection": "chamados",
